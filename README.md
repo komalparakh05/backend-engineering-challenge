@@ -65,10 +65,10 @@ Run tests using:
 
 ## Design Considerations
 
-**Order of Processing**: Designed to efficiently handle ordered input data.
-**Memory Optimization**: Uses a deque to minimize memory usage while managing the sliding window.
-**Error Resilience**: Incorporates error handling to ensure robust execution.
-**Transparency**: Provides logging to help understand the processing flow and diagnose issues..
+- **Order of Processing**: Designed to efficiently handle ordered input data.
+- **Memory Optimization**: Uses a deque to minimize memory usage while managing the sliding window.
+- **Error Resilience**: Incorporates error handling to ensure robust execution.
+- **Transparency**: Provides logging to help understand the processing flow and diagnose issues..
 
 
 ## Alternative Approach
