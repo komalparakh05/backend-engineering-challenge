@@ -37,13 +37,13 @@ This project implements a sequential processing approach to calculate the moving
 
 Run the script with the following command:
 
-```bash
-python unbabel_cli.py --input_file <path_to_input_file> --window_size <window_size_in_minutes> [--chunk_size <chunk_size>]
+	```bash
+	python unbabel_cli.py --input_file <path_to_input_file> --window_size <window_size_in_minutes> [--chunk_size <chunk_size>]
 
 Example:
 
-```bash
-python unbabel_cli.py --input_file events.json --window_size 10 --chunk_size 50000
+	```bash
+	python unbabel_cli.py --input_file events.json --window_size 10 --chunk_size 50000
 
 
 ## Testing
