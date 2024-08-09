@@ -26,7 +26,8 @@ This project implements a sequential processing approach to calculate the moving
 
 2. Create a virtual environment and install dependencies:
 
-	python -m venv venv
+	```bash
+ 	python -m venv venv
 	.\venv\Scripts\activate  # On Windows
 	# source venv/bin/activate  # On macOS/Linux
 	pip install -r requirements.txt
@@ -36,10 +37,12 @@ This project implements a sequential processing approach to calculate the moving
 
 Run the script with the following command:
 
+```bash
 python unbabel_cli.py --input_file <path_to_input_file> --window_size <window_size_in_minutes> [--chunk_size <chunk_size>]
 
 Example:
 
+```bash
 python unbabel_cli.py --input_file events.json --window_size 10 --chunk_size 50000
 
 
